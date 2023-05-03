@@ -1,6 +1,6 @@
 import React from "react"
 
-function quantityValue(){
+function QuantityValue(){
     const [quantity, setQuantity] = React.useState(0)
     const [message, setMessage] = React.useState('')
     function minusValue(){
@@ -32,4 +32,4 @@ function quantityValue(){
     )
 }
 
-export default quantityValue
+export default QuantityValue
